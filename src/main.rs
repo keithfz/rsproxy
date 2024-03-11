@@ -29,7 +29,7 @@ impl ProxyHttp for RSProxy {
             }
         }
         if !route_found {
-            _session.respond_error(403).await;
+            _session.respond_error(503).await;
             return Err(Error::explain(ConnectProxyFailure, "No upstream"))
         }
 
