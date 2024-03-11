@@ -1,0 +1,6 @@
+routes:
+  - prefix: /foo
+    host: 1.1.1.1
+  - prefix: /bar
+    host: 1.0.0.1
+
